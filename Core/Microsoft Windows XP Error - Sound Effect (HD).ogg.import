@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Microsoft Windows XP Error - Sound Effect (HD).ogg-3654e8a9d70b82368490a89915a5f763.oggstr"
+
+[deps]
+
+source_file="res://Core/Microsoft Windows XP Error - Sound Effect (HD).ogg"
+dest_files=[ "res://.import/Microsoft Windows XP Error - Sound Effect (HD).ogg-3654e8a9d70b82368490a89915a5f763.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

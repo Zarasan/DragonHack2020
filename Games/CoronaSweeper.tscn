@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Games/CoronaSweeper/CoronaSweeper.gd" type="Script" id=1]
+[ext_resource path="res://Games/CoronaSweeper/Button.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Games/CoronaSweeper/Board.gd" type="Script" id=3]
+
+
+[node name="CoronaSweeper" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -0.0743256
+margin_bottom = -0.0743408
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Board" type="GridContainer" parent="."]
+anchor_left = -7.25985e-05
+anchor_right = 0.999927
+anchor_bottom = 1.0
+margin_left = 150.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -10.0
+columns = 9
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" parent="Board" instance=ExtResource( 2 )]

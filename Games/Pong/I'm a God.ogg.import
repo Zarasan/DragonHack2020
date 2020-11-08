@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/I'm a God.ogg-a14e59e0d8a3a11fa61b7f805f145459.oggstr"
+
+[deps]
+
+source_file="res://Games/Pong/I'm a God.ogg"
+dest_files=[ "res://.import/I'm a God.ogg-a14e59e0d8a3a11fa61b7f805f145459.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

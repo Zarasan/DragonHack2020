@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/I just told you who I thought I was, A GOD.ogg-f64db3f9dad73e14b2c5fc6948e01fbb.oggstr"
+
+[deps]
+
+source_file="res://Games/Pong/I just told you who I thought I was, A GOD.ogg"
+dest_files=[ "res://.import/I just told you who I thought I was, A GOD.ogg-f64db3f9dad73e14b2c5fc6948e01fbb.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
